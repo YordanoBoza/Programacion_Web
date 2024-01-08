@@ -27,4 +27,25 @@ h1 {
     text-align: center; 
     padding: 20px; 
 }    
+input {
+    width: 91%; 
+    padding: 15px;
+    margin: 10px 0; 
+    border-radius: 4px;
+    font-size: 24px; 
+}
 
+button {
+    width: 100px; 
+    padding: 10px; 
+    margin: 5px; 
+    font-size: 20px; 
+    border-radius: 4px;
+}
+
+.calcular{
+    background-color: rgb(43, 101, 207);
+}
+.simbolos{
+    background-color: rgb(200, 178, 221);
+}
