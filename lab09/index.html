@@ -5,3 +5,32 @@
     <title>Consulta</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
+<body>
+    <div>
+        <h1>Consulta de Universidades Licenciadas</h1>
+    </div>
+    <form action="cgi-bin/consulta.pl" method="post">
+        <div class="contenedor">
+            <div class="busqueda">
+                <p>1. Nombre Universidad</p> <input type="text" name="nombre_universidad" class="recuadro" placeholder="Ingrese nombre">
+            </div>
+            <div class="busqueda">
+                <p>2. Per&iacute;odo Licenciamiento </p><input type="text" name="periodo_licenciamiento" class="recuadro" placeholder="Ingrese numero">
+            </div>
+            <div class="busqueda">
+                <p>3. Departamento Local</p> <input type="text" name="departamento_local" class="recuadro" placeholder="Ingrese lugar">
+            </div>
+            <div class="busqueda">
+                <p>4. Denominaci&oacute;n Programa</p> <input type="text" name="denominacion_programa" class="recuadro" placeholder="Ingrese texto">
+            </div>
+            <div >
+                <button type="submit" value="Consultar" class="consulta" >Consultar</button>
+
+            </div>
+
+        </div>
+    </form>
+
+
+</body>
+</html>
