@@ -61,4 +61,23 @@ print <<HTML;
                 <th >Denominaci&oacute;n Programa</th>
             </tr>
 HTML
+foreach my $result (@resultados) {
+    print "<tr id ='otrasfila'>";
+    print "<td class='columna'>$result->{'NOMBRE'}</td>";
+    print "<td class='columna'>$result->{'PERIODO_LICENCIAMIENTO'}</td>";
+    print "<td class='columna'>$result->{'DEPARTAMENTO_LOCAL'}</td>";
+    print "<td class='ultimac'>$result->{'DENOMINACION_PROGRAMA'}</td>";
+    print "</tr>";
+}
 
+print <<HTML;
+    </table>
+    </div>
+    <div>
+      <form method="post" action="../index.html">
+        <input id="regreso" type="submit" value="Regresar">
+      </form>
+    </div>
+  </body>
+</html>
+HTML
