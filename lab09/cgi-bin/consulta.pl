@@ -39,3 +39,26 @@ while (my $fila = $csv->getline($fh)) {
 
 # Cerrar el archivo CSV
 close $fh;
+
+print <<HTML;
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="latin-1">
+    <title>Resultado de la Consulta</title>
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+    <div>
+        <h1>Resultado de la Consulta</h1>
+    </div>
+    <div class="resultado">
+        <table  border="1">
+            <tr>
+                <th >Nombre de Universidad</th>
+                <th >Per&iacute;odo de Licenciamiento</th>
+                <th >Departamento Local</th>
+                <th >Denominaci&oacute;n Programa</th>
+            </tr>
+HTML
+
