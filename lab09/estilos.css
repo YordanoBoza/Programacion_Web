@@ -3,3 +3,38 @@
     box-sizing: border-box;
 
 }
+body{
+    background-color: rgb(200, 238, 178);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: #ec9e0d;
+    text-align: center;
+    margin: 20px;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+.busqueda {
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+p{
+    width: 200px;
+}
+.recuadro{
+    margin-left: 10px;
+    border-radius: 25px;
+    width: 350px;
+    padding: 3px;
+    
+}
+.consulta{
+    margin-top: 15px;
+    margin-left: 450px;
+    width: 120px;
+    background-color: aquamarine;
+  
+}
