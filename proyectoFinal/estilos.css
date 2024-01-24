@@ -1,0 +1,85 @@
+body{
+    background-color: #f1e7bf;
+}
+header {
+    background-color: #0e21d2bf;
+    color: #fff;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    font-family: 'Afacad', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kalnia', serif;
+    font-family: 'Lemon', serif;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 2%;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #ffcc00;
+}
+
+#contenedor{
+
+    display: flex;
+    max-width: auto;
+    margin: auto;
+    
+}
+#submenu{
+    background-color: #ffcc00;
+    display: inline-block;
+    max-width: auto;
+    border-radius: 40px;
+    position: fixed; /* Fijamos el submenu */
+    
+}
+
+#submenu div{
+    padding: 20px;
+    margin:50px;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+#todos{
+
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px; 
+    max-width: 1450px; 
+    margin: 0 auto; 
+    margin-top: 10px;
+}
+.productos{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 210px;
+    border-radius: 8px;
+    text-align: center;
+}
+img{
+    width: 180px;
+    height: 185px;
+
+
+}
