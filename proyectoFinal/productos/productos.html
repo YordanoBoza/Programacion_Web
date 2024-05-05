@@ -24,16 +24,16 @@
     <div id="contenedor">
         <div id="submenu">
         <nav>
-        <div><li>Todos los productos</li></div>
-        <div><li>Abarrotes</li></div>
-        <div><li>Bebidas</li></div>
-        <div><li>Lácteos</li></div>
-        <div><li>Golosinas</li></div>
-        <div><li>Limpieza</li></div>
+            <div><li onclick="mostrarProductos('todos')">Todos los productos</li></div>
+            <div><li onclick="mostrarProductos('abarrotes')">Abarrotes</li></div>
+            <div><li onclick="mostrarProductos('bebidas')">Bebidas</li></div>
+            <div><li onclick="mostrarProductos('lacteos')">Lácteos</li></div>
+            <div><li onclick="mostrarProductos('golosinas')">Golosinas</li></div>
+            <div><li onclick="mostrarProductos('limpieza')">Limpieza</li></div>
         </nav>
         
         </div>
-        <div id="todos">
+        <div id="todos" class="productos-container">
             <div class = "productos">
                 <div><img src="img/huevos.jpeg" alt="huevos"></div>
                 <div>HUEVOS<h3>S/ 16.00</h3></div>
@@ -91,29 +91,120 @@
                     <button class="comprar">Comprar</button> </div>
             </div>
             <div class = "productos">
-                <div><img src="img/leche.jpeg" alt="leche"></div>
-                <div>LECHE<h3>S/ 16.00</h3></div>
+                <div><img src="img/harina.jpeg" alt="harina"></div>
+                <div>HARINA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/cielo.jpg" alt="cielo"></div>
+                <div>AGUA CIELO<h3>S/ 16.00</h3></div>
                 <div class="botones">
                     <button class="carrito">Agregar al carrito</button>
                     <button class="comprar">Comprar</button> </div>
             </div>
             <div class = "productos">
                 <div><img src="img/agua.jpeg" alt="agua"></div>
-                <div>AGUA<h3>S/ 16.00</h3></div>
+                <div>AGUA SAN LUIS<h3>S/ 16.00</h3></div>
                 <div class="botones">
                     <button class="carrito">Agregar al carrito</button>
                     <button class="comprar">Comprar</button> </div>
             </div>
 			<div class = "productos">
                 <div><img src="img/gaseosa.jpeg" alt="gaseosa"></div>
-                <div>GASESOSA<h3>S/ 16.00</h3></div>
+                <div>GASESOSA COCACOLA<h3>S/ 16.00</h3></div>
                 <div class="botones">
                     <button class="carrito">Agregar al carrito</button>
                     <button class="comprar">Comprar</button> </div>
             </div>
-			<div class = "productos">
-                <div><img src="img/harina.jpeg" alt="harina"></div>
-                <div>HARINA<h3>S/ 16.00</h3></div>
+            <div class = "productos">
+                <div><img src="img/incaKola.jpeg" alt="incaKola"></div>
+                <div>GASEOSA INCAKOLA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/fanta.jpg" alt="fanta"></div>
+                <div>GASEOSA FANTA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/kr.jpg" alt="kr"></div>
+                <div>GASEOSA KR<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/incaKola3L.jpg" alt="inca3L"></div>
+                <div>GASEOSA INCA KOLA 3L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/cocaCola3L.jpg" alt="coca3L"></div>
+                <div>GASEOSA COCACOLA 3L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/fanta3L.jpg" alt="fanta3L"></div>
+                <div>GASEOSA FANTA 3L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/kr3L.jpg" alt="kr3L"></div>
+                <div>GASEOSA KR 3L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/sanluis2.5L.jpg" alt="sanLuis2.5L"></div>
+                <div>AGUA SAN LUIS 2.5L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/cielo2.5L.jpg" alt="cielo2.5L"></div>
+                <div>AGUA CIELO 2.5L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/leche.jpeg" alt="leche"></div>
+                <div>LECHE GLORIA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/lecheIdeal.jpg" alt="lecheIdeal"></div>
+                <div>LECHE IDEAL<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/mantequilla.png" alt="mantequilla"></div>
+                <div>MANTEQUILLA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/lecheNestle.jpg" alt="lecheNestle"></div>
+                <div>LECHE CONDENSADA NESTLE<h3>S/ 16.00</h3></div>
                 <div class="botones">
                     <button class="carrito">Agregar al carrito</button>
                     <button class="comprar">Comprar</button> </div>
@@ -135,6 +226,62 @@
             <div class = "productos">
                 <div><img src="img/cereal.jpeg" alt="cereal"></div>
                 <div>CEREAL<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/sublime.jpeg" alt="sublime"></div>
+                <div>SUBLIME<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/morochas.jpg" alt="morochas"></div>
+                <div>MOROCHAS<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/picaras.jpg" alt="picaras"></div>
+                <div>PICARAS<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/carameloChicha.jpg" alt="chicha"></div>
+                <div>BOLSA DE CARAMELOS SABOR CHICHA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/papasLays.jpg" alt="papas Lays"></div>
+                <div>PAPITAS LAYS<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/piqueos.jpg" alt="piqueos"></div>
+                <div>PIQUEOS SNACK<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/cheetos.jpg" alt="cheetos"></div>
+                <div>CHEETOS<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/chupetines.jpg" alt="chupetines"></div>
+                <div>BOLSA DE CHUPETINES<h3>S/ 16.00</h3></div>
                 <div class="botones">
                     <button class="carrito">Agregar al carrito</button>
                     <button class="comprar">Comprar</button> </div>
@@ -174,26 +321,324 @@
                     <button class="carrito">Agregar al carrito</button>
                     <button class="comprar">Comprar</button> </div>
             </div>
-
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
-            <div class = "productos"> ma</div>
+            <div class = "productos">
+                <div><img src="img/poett.jpg" alt="poett"></div>
+                <div>POETT<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+        </div>
+        <div id="abarrotes" class="productos-container" style="display: none;">
+            <div class = "productos">
+                <div><img src="img/huevos.jpeg" alt="huevos"></div>
+                <div>HUEVOS<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/fideos.jpeg" alt="fideos"></div>
+                <div>FIDEOS<h3>S/ 10.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/aceite.jpeg" alt="aceite"></div>
+                <div>ACEITE<h3>S/ 11.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/azucar.jpeg" alt="azucar"></div>
+                <div>AZUCAR<h3>S/ 30.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/arroz.jpeg" alt="arroz"></div>
+                <div>ARROZ<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/sal.jpeg" alt="sal"></div>
+                <div>SAl<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/atun.jpeg" alt="atun"></div>
+                <div>ATUN<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/fideosTallarin.jpeg" alt="fideosTallarin"></div>
+                <div>FIDEOS TALLARIN<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/harina.jpeg" alt="harina"></div>
+                <div>HARINA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+        </div>
+        <div id="bebidas" class="productos-container" style="display: none;">
+            <div class = "productos">
+                <div><img src="img/cielo.jpg" alt="cielo"></div>
+                <div>AGUA CIELO<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/agua.jpeg" alt="agua"></div>
+                <div>AGUA SAN LUIS<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+			<div class = "productos">
+                <div><img src="img/gaseosa.jpeg" alt="gaseosa"></div>
+                <div>GASESOSA COCACOLA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/incaKola.jpeg" alt="incaKola"></div>
+                <div>GASEOSA INCAKOLA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/fanta.jpg" alt="fanta"></div>
+                <div>GASEOSA FANTA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/kr.jpg" alt="kr"></div>
+                <div>GASEOSA KR<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/incaKola3L.jpg" alt="inca3L"></div>
+                <div>GASEOSA INCA KOLA 3L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/cocaCola3L.jpg" alt="coca3L"></div>
+                <div>GASEOSA COCACOLA 3L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/fanta3L.jpg" alt="fanta3L"></div>
+                <div>GASEOSA FANTA 3L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/kr3L.jpg" alt="kr3L"></div>
+                <div>GASEOSA KR 3L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/sanluis2.5L.jpg" alt="sanLuis2.5L"></div>
+                <div>AGUA SAN LUIS 2.5L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/cielo2.5L.jpg" alt="cielo2.5L"></div>
+                <div>AGUA CIELO 2.5L<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+        </div>
+        <div id="lacteos" class="productos-container" style="display: none;">
+            <div class = "productos">
+                <div><img src="img/leche.jpeg" alt="leche"></div>
+                <div>LECHE GLORIA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/lecheIdeal.jpg" alt="lecheIdeal"></div>
+                <div>LECHE IDEAL<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/mantequilla.png" alt="mantequilla"></div>
+                <div>MANTEQUILLA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/lecheNestle.jpg" alt="lecheNestle"></div>
+                <div>LECHE CONDENSADA NESTLE<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/yogurt.jpeg" alt="yogurt"></div>
+                <div>YOGURT<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/cafe.jpeg" alt="cafe"></div>
+                <div>CAFE<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+        </div>
+        <div id="golosinas" class="productos-container" style="display: none;">
+            <div class = "productos">
+                <div><img src="img/cereal.jpeg" alt="cereal"></div>
+                <div>CEREAL<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/sublime.jpeg" alt="sublime"></div>
+                <div>SUBLIME<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/morochas.jpg" alt="morochas"></div>
+                <div>MOROCHAS<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/picaras.jpg" alt="picaras"></div>
+                <div>PICARAS<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/carameloChicha.jpg" alt="chicha"></div>
+                <div>BOLSA DE CARAMELOS SABOR CHICHA<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/papasLays.jpg" alt="papas Lays"></div>
+                <div>PAPITAS LAYS<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/piqueos.jpg" alt="piqueos"></div>
+                <div>PIQUEOS SNACK<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/cheetos.jpg" alt="cheetos"></div>
+                <div>CHEETOS<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/chupetines.jpg" alt="chupetines"></div>
+                <div>BOLSA DE CHUPETINES<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+        </div>
+        <div id="limpieza" class="productos-container" style="display: none;">
+            <div class = "productos">
+                <div><img src="img/detergente.jpeg" alt="detergente"></div>
+                <div>DETERGENTE<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/jabon.jpeg" alt="jabon"></div>
+                <div>JABON<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/enjuague.jpeg" alt="enjuague"></div>
+                <div>ENJUAGUE<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/clorox.jpeg" alt="clorox"></div>
+                <div>CLOROX<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/ayudin.jpeg" alt="ayudin"></div>
+                <div>AYUDIN<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
+            <div class = "productos">
+                <div><img src="img/poett.jpg" alt="poett"></div>
+                <div>POETT<h3>S/ 16.00</h3></div>
+                <div class="botones">
+                    <button class="carrito">Agregar al carrito</button>
+                    <button class="comprar">Comprar</button> </div>
+            </div>
         </div>
 
 
 
+
     </div>
+        <script src="mostrarSeccion.js"></script>
     
 </body>
 </html>
